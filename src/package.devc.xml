@@ -4,6 +4,7 @@
   <asx:values>
    <DEVC>
     <CTEXT>Building Apps with the ABAP RAP model Nov 2020</CTEXT>
+    <TPCLASS>X</TPCLASS>
     <SRV_CHECK>X</SRV_CHECK>
    </DEVC>
   </asx:values>
