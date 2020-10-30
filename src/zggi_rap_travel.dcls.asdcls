@@ -1,0 +1,11 @@
+@EndUserText.label: 'Travel BO access control'
+@MappingRole: true
+define role ZGGI_RAP_TRAVEL {
+    grant
+        select
+            on
+                ZGGI_RAP_Travel
+                    where ( ( TravelStatus ) = aspect pfcg_auth( ZGG_TRVSTS, ZGG_TRVSTS, ACTVT = '03' )
+                            and  CurrencyCode = 'USD' )
+                     or true;   // workaround the data to be always displayed    
+}
