@@ -19,7 +19,7 @@ annotate view ZGGC_RAP_Travel with
                  position:        20,
                  targetElement:   '_Booking'} ]
 
-  @UI:{ identification: [{ position: 1, label: 'Travel UUID' }] }
+  @UI.hidden: true
   TravelUUID;
 
   @UI: {  lineItem:       [ { position: 10 } ],
