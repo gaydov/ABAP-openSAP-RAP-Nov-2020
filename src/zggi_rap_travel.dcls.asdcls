@@ -5,7 +5,6 @@ define role ZGGI_RAP_TRAVEL {
         select
             on
                 ZGGI_RAP_Travel
-                    where ( ( TravelStatus ) = aspect pfcg_auth( ZGG_TRVSTS, ZGG_TRVSTS, ACTVT = '03' )
-                            and  CurrencyCode = 'USD' )
-                     or true;   // workaround the data to be always displayed    
+                    where ( ( TravelStatus ) = aspect pfcg_auth( ZGG_TRVSTS, ZGG_TRVSTS, ACTVT = '03' ) )
+                        or true;   // workaround the data to be always displayed, this line should be removed for a real authority check   
 }
