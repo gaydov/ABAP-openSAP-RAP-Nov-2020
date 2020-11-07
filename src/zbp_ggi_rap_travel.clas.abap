@@ -1,0 +1,5 @@
+CLASS zbp_ggi_rap_travel DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF zggi_rap_travel.
+ENDCLASS.
+
+CLASS zbp_ggi_rap_travel IMPLEMENTATION.
+ENDCLASS.
