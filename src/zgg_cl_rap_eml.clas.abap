@@ -13,7 +13,8 @@ ENDCLASS.
 
 
 
-CLASS zgg_cl_rap_eml IMPLEMENTATION.
+CLASS ZGG_CL_RAP_EML IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -117,5 +118,4 @@ CLASS zgg_cl_rap_eml IMPLEMENTATION.
 *    out->write( 'Delete done' ).
 
   ENDMETHOD.
-
 ENDCLASS.

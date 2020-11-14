@@ -1,0 +1,12 @@
+@EndUserText.label: 'Travel unmanaged'
+define service Zggui_rap_u_travel {
+  expose ZGGC_RAP_U_TRAVEL as Travel;
+  expose ZGGC_RAP_U_BOOKING as Booking;
+  expose /DMO/I_Customer as Passenger;
+  expose /DMO/I_Agency as TravelAgency;
+  expose /DMO/I_Carrier as Airline;
+  expose /DMO/I_Flight as Flight;
+  expose /DMO/I_Connection as Connection;
+  expose /DMO/I_Airport as Airport;
+  expose I_Currency as Currency;
+}

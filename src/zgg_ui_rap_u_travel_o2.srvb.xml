@@ -4,13 +4,13 @@
   <asx:values>
    <SRVB>
     <METADATA>
-     <NAME>ZGG_UI_RAP_TRAVEL_O2</NAME>
+     <NAME>ZGG_UI_RAP_U_TRAVEL_O2</NAME>
      <TYPE>SRVB/SVB</TYPE>
-     <DESCRIPTION>OData V2 service binding for Travel</DESCRIPTION>
+     <DESCRIPTION>Travel unmanaged</DESCRIPTION>
      <LANGUAGE>EN</LANGUAGE>
      <LINKS>
       <item>
-       <HREF>/sap/bc/adt/businessservices/odatav2/ZGG_UI_RAP_TRAVEL_O2</HREF>
+       <HREF>/sap/bc/adt/businessservices/odatav2/ZGG_UI_RAP_U_TRAVEL_O2</HREF>
        <REL>http://www.sap.com/categories/odatav2</REL>
        <TYPE>application/vnd.sap.adt.businessservices.odatav2.v2+xml</TYPE>
        <TITLE>ODATAV2</TITLE>
@@ -26,20 +26,20 @@
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
-      <NAME>ZGG_UI_RAP_TRAVEL_O2</NAME>
+      <NAME>ZGG_UI_RAP_U_TRAVEL_O2</NAME>
      </BIND_TYPE_IMPL>
      <BIND_TYPE>ODATA</BIND_TYPE>
      <BIND_TYPE_VERSION>V2</BIND_TYPE_VERSION>
      <SERVICES>
       <item>
-       <SERVICE_NAME>ZGG_UI_RAP_TRAVEL_O2</SERVICE_NAME>
+       <SERVICE_NAME>ZGG_UI_RAP_U_TRAVEL_O2</SERVICE_NAME>
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
          <SRVD_REF>
-          <URI>/sap/bc/adt/ddic/srvd/sources/zggui_rap_travel</URI>
+          <URI>/sap/bc/adt/ddic/srvd/sources/zggui_rap_u_travel</URI>
           <TYPE>SRVD/SRV</TYPE>
-          <NAME>ZGGUI_RAP_TRAVEL</NAME>
+          <NAME>ZGGUI_RAP_U_TRAVEL</NAME>
          </SRVD_REF>
         </item>
        </SERVICE_CONTENT>

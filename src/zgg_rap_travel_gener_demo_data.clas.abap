@@ -9,7 +9,8 @@ ENDCLASS.
 
 
 
-CLASS zgg_rap_travel_gener_demo_data IMPLEMENTATION.
+CLASS ZGG_RAP_TRAVEL_GENER_DEMO_DATA IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 
@@ -72,5 +73,4 @@ CLASS zgg_rap_travel_gener_demo_data IMPLEMENTATION.
     out->write( 'Travel and booking demo data inserted.').
 
   ENDMETHOD.
-
 ENDCLASS.
